@@ -37,6 +37,7 @@
 					]
 				},
 				computed:{
+					// 当计算属性依赖的数据发生变化时  计算属性都会重新计算一次
 					filPerons(){
 						const arr = this.persons.filter((p)=>{
 							return p.name.indexOf(this.keyWord) !== -1

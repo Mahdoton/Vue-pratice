@@ -60,8 +60,11 @@
 					]
 				},
 				computed:{
+					// 计算属性的回调函数在页面一渲染就会执行一次
+					// 侦听(监视)属性则需要另外配置immediate:true选项才能在页面一渲染时就执行回调
 					filPerons(){
 						return this.persons.filter((p)=>{
+							// name包含keyWord时为真,不包含为假
 							return p.name.indexOf(this.keyWord) !== -1
 						})
 					}
