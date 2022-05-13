@@ -35,7 +35,7 @@
 		Vue.config.productionTip = false
 		
 		//定义school组件
-		const school = Vue.extend({
+		const school = {
 			name:'school',
 			template:`
 				<div>
@@ -55,7 +55,7 @@
 					console.log('showName',this)
 				}
 			},
-		})
+		}
 
 		const test = Vue.extend({
 			template:`<span>atguigu</span>`
