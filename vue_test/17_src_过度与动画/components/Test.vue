@@ -32,7 +32,7 @@
 	}
 
 	@keyframes atguigu {
-		from{
+		from{ 
 			transform: translateX(-100%);
 		}
 		to{
