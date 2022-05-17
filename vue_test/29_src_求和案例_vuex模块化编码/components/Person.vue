@@ -31,7 +31,7 @@
 			},
 			firstPersonName(){
 				return this.$store.getters['personAbout/firstPersonName']
-			}
+			} 
 		},
 		methods: {
 			add(){

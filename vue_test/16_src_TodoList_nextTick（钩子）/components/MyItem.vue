@@ -48,6 +48,7 @@
 					// console.log('@')
 					this.$set(todo,'isEdit',true)
 				}
+				// 当vue把真实dom放入页面之后调用this.$nextTick（钩子）
 				this.$nextTick(function(){
 					this.$refs.inputTitle.focus()
 				})
