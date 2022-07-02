@@ -1,3 +1,13 @@
+/*
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-05 22:11:18
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-02 12:03:01
+ * @FilePath: \Vue-pratice\vue_test\40_src_全局路由守卫\router\index.js
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+ */
 // 该文件专门用于创建整个应用的路由器
 import VueRouter from 'vue-router'
 //引入组件

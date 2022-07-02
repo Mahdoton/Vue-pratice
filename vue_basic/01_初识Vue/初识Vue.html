@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-04 21:50:55
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-01 18:19:11
+ * @FilePath: \Vue-pratice\vue_basic\01_初识Vue\初识Vue.html
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -43,9 +53,16 @@
 				data:{ //data中用于存储数据，数据供el所指定的容器去使用，值我们暂时先写成一个对象。
 					name:'atguigu',
 					address:'北京'
-				}
+				},
+				beforeCreate() {
+					console.log(this)
+					console.log(this.name)
+				},
+				created() {
+					console.log(this)
+					console.log(this.name)
+				},
 			})
-
 		</script>
 	</body>
 </html>

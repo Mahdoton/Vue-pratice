@@ -1,3 +1,13 @@
+/*
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-05 22:10:45
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-01 20:49:13
+ * @FilePath: \Vue-pratice\vue_test\24_src_求和案例_vuex版\store\index.js
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+ */
 //该文件用于创建Vuex中最为核心的store
 import Vue from 'vue'
 //引入Vuex

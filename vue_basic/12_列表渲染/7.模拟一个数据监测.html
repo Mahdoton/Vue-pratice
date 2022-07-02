@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-04 21:51:05
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-06-30 18:27:38
+ * @FilePath: \Vue-pratice\vue_basic\12_列表渲染\7.模拟一个数据监测.html
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -15,6 +25,7 @@
 			//创建一个监视的实例对象，用于监视data中属性的变化
 			const obs = new Observer(data)		
 			console.log(obs)	
+			
 
 			//准备一个vm实例对象
 			let vm = {}

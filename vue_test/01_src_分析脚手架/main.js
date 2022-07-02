@@ -1,3 +1,13 @@
+/*
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-05 22:09:47
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-01 16:02:38
+ * @FilePath: \Vue-pratice\vue_test\01_src_分析脚手架\main.js
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+ */
 /* 
 	该文件是整个项目的入口文件
 */

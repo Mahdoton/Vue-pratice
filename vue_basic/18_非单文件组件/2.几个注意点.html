@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-04 21:51:11
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-01 14:34:56
+ * @FilePath: \Vue-pratice\vue_basic\18_非单文件组件\2.几个注意点.html
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -30,6 +40,7 @@
 
 					3.一个简写方式：
 								const school = Vue.extend(options) 可简写为：const school = options
+								在注册组件时，Vue会判断组件是否为一个对象，如果是Vue会自动调用Vue.extend方法
 		-->
 		<!-- 准备好一个容器-->
 		<div id="root">
@@ -57,6 +68,7 @@
 				}
 			}
 		})
+		console.log(s)
 
 		new Vue({
 			el:'#root',

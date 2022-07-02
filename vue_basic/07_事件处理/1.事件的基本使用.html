@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-04 21:50:57
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-06-28 20:10:33
+ * @FilePath: \Vue-pratice\vue_basic\07_事件处理\1.事件的基本使用.html
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -34,15 +44,16 @@
 			},
 			methods:{
 				showInfo1(event){
-					// console.log(event.target.innerText)
+					console.log(event)
+					console.log(event.target.innerText)
 					// console.log(this) //此处的this是vm
-					alert('同学你好！')
+					// alert('同学你好！')
 				},
 				showInfo2(event,number){
 					console.log(event,number)
-					// console.log(event.target.innerText)
+					console.log(event.target.innerText)
 					// console.log(this) //此处的this是vm
-					alert('同学你好！！')
+					// alert('同学你好！！')
 				}
 			}
 		})

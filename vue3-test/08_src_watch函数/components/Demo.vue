@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-18 18:57:49
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-02 20:11:27
+ * @FilePath: \Vue-pratice\vue3-test\08_src_watch函数\components\Demo.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <template>
 	<h2>当前求和为：{{sum}}</h2>
 	<button @click="sum++">点我+1</button>

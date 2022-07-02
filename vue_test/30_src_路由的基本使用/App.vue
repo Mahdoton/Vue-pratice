@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-05 22:10:10
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-01 22:25:57
+ * @FilePath: \Vue-pratice\vue_test\30_src_路由的基本使用\App.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <template>
   <div>
     <div class="row">

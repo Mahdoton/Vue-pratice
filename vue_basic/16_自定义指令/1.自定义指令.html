@@ -1,3 +1,13 @@
+<!--
+ * @Author: Mahdoton 572250782@qq.com
+ * @Date: 2022-05-04 21:51:09
+ * @LastEditors: Mahdoton 572250782@qq.com
+ * @LastEditTime: 2022-07-01 14:14:33
+ * @FilePath: \Vue-pratice\vue_basic\16_自定义指令\1.自定义指令.html
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by Mahdoton 572250782@qq.com, All Rights Reserved. 
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -71,6 +81,8 @@
 					element.innerText = binding.value * 10
 				}, */
 				big(element,binding){
+					// console.log(element)
+					// console.log(binding)
 					console.log('big',this) //注意此处的this是window
 					// console.log('big')
 					element.innerText = binding.value * 10
